@@ -1,0 +1,519 @@
+/*
+ *这是单独为hello mui准备的个性化css，可以覆盖标准mui的css定义；
+ * 在实际项目开发时，建议为App单独写一个css文件，从而实现项目的自定义皮肤功能；
+ * 
+ * */
+
+.r44 {
+	width: 44px;
+	height: 44px;
+	line-height: 44px;
+	display: inline-block;
+	background-size: cover;
+	border-radius: 22px;
+	border-radius: 50%;
+	position: relative;
+}
+
+.r44 img {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+}
+
+.online {
+	font-size: 16px;
+	position: absolute;
+	top: -2px;
+	left: 100%;
+	margin-left: -10px;
+	line-height: 16px;
+	color: #2ECC71;
+	z-index: 999;
+}
+
+.offline {
+	color: #ccc;
+}
+
+.r30 {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+	display: inline-block;
+	background-size: cover;
+	border-radius: 40px;
+	text-align: center;
+	font-weight: 500;
+}
+
+.r30 img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.r64 {
+	width: 64px;
+	height: 64px;
+	line-height: 64px;
+	border-radius: 50%;
+	display: inline-block;
+	background-size: cover;
+	border-radius: 32px;
+}
+
+.r64 img {
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+}
+
+.plr_5 {
+	padding: auto 5px;
+}
+
+.pr_5 {}
+
+.plr_10 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.p1015 {
+	padding: 10px 15px;
+}
+
+.mt_10 {
+	margin-top: 10px;
+}
+
+.infobox {
+	background-color: #26a2e2;
+	color: #fff;
+	padding: 10px;
+	height: 140px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.current-addr {
+	padding: 3px 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(255, 255, 255, .3);
+}
+
+.bdbd {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+}
+
+.clred {
+	color: #ec605f;
+}
+
+.clgreen {
+	color: #2ecc71;
+}
+
+.clblue {
+	color: #5baef5;
+}
+
+.clwhite {
+	color: #fff;
+}
+
+.clyellow {
+	color: #f1da3a;
+}
+
+.clorange {
+	color: #fe9137;
+}
+
+.bgc-w {
+	background-color: #fff;
+}
+
+.search-row {
+	width: 100%;
+	padding: 5px;
+}
+
+.search-box {
+	margin: 0;
+	padding: 0px;
+	font-size: 14px;
+	border-radius: 20px;
+	height: 34px;
+	border: 1px solid #ddd;
+	padding-left: 15px;
+	padding-right: 34px;
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+}
+
+.search-box input {
+	border: 0;
+	height: 32px;
+	padding: 0;
+}
+
+.search-box .btn-search {
+	font-size: 16px;
+	color: #666;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+
+.date-box {
+	margin: 0;
+	padding: 0px;
+	font-size: 14px;
+	border-radius: 20px;
+	height: 34px;
+	border: 1px solid #ddd;
+	padding-left: 15px;
+	padding-right: 34px;
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+	line-height: 30px;
+}
+
+.date-box button {
+	border: 0;
+}
+
+.date-box button {
+	width: 40%;
+}
+
+.date-box .btn-search {
+	font-size: 16px;
+	color: #666;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+}
+
+
+/*todo*/
+
+.todo {
+	background-color: #fff;
+}
+
+.todo input[type="checkbox"]:checked + label {
+	text-decoration: line-through;
+	color: #9e9e9e;
+}
+
+.todo input[type="checkbox"] + label {
+	color: inherit;
+}
+
+.todo .todo-element {
+	position: relative;
+	margin: 0;
+	padding: 10px 15px;
+	color: #333;
+	border-top: 1px solid #eee;
+}
+
+.todo .todo-element:last-child {
+	border-bottom: 1px solid #eee;
+}
+
+.todo .todo-element span {
+	display: block;
+	margin-left: 20px;
+	font-size: 14px;
+	color: #9e9e9e;
+}
+
+.todo .todo-element label {
+	margin-left: 5px;
+}
+
+
+/**/
+
+.timeline {
+	padding-left: 20px;
+	border-left: 2px solid #ccc;
+	margin-left: 20px;
+}
+
+.flow {
+	box-sizing: border-box;
+	padding: 0 12px;
+	width: 100%;
+}
+
+.flow-item {
+	position: relative;
+	padding: 10px 16px 10px 50px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.flow-item img {
+	position: absolute;
+	top: 12px;
+	left: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+
+.flow-item p {
+	margin: 1px 0 0;
+}
+
+.flow-item i {
+	font-size: inherit;
+}
+
+.flow-item .time {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-weight: 300;
+}
+
+.flow-item .dot {
+	width: 12px;
+	height: 12px;
+	background-color: #fff;
+	position: absolute;
+	top: 17px;
+	left: -39px;
+	border-radius: 50%;
+	border: 2px solid #2ecc71;
+	box-sizing: border-box;
+}
+
+.flow-item .dot-red {
+	border: 2px solid #ec605f;
+}
+
+
+/*list*/
+
+.wqlist {
+	margin: 0;
+	padding: 0;
+}
+
+.wqlist li {
+	position: relative;
+	background-color: #fff;
+	padding: 10px;
+	line-height: 1.2em;
+}
+
+.wqlist img {
+	position: absolute;
+}
+
+.pic65list li {
+	padding-left: 85px;
+}
+
+.pic65list img {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 65px;
+	height: 65px;
+}
+
+.pic65list li div.info {}
+
+a.workli {
+	font-size: 14px;
+	color: #666;
+	margin-right: 6px;
+}
+
+a.worklastli {
+	border: 0;
+}
+
+a.workli i {
+	color: #aaa !important;
+	font-size: 14px;
+	margin-right: 3px;
+}
+
+a.workli:hover {
+	color: #0084cf;
+}
+
+a.workli:hover i {
+	color: #0084cf!important;
+}
+
+.workli span {
+	color: #666;
+}
+
+.noticelist li {
+	margin: 6px 6px 0;
+	border: 1px solid #ddd;
+}
+
+.noticelist li a h4 {
+	color: #333;
+}
+
+.noticelist li a h5 {
+	line-height: 1.4em;
+}
+
+.topnav {
+	border-radius: 3px;
+	display: block;
+	background: #0062CC;
+	margin: 0;
+}
+
+.chartlist li i {
+	color: #999;
+	margin-right: 8px;
+}
+
+.tablechart {
+	font-size: 14px;
+	color: #666;
+	background: #fff;
+	border: 1px solid #eee;
+	width: 100%;
+	max-width: 100%;
+}
+
+.tablechart th {
+	padding: 3px 5px;
+	border-right: 1px solid #eee;
+	border-bottom: 2px solid #eee;
+	font-weight: 100;
+	background: #5baef5;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+}
+
+.tablechart td {
+	padding: 3px 5px;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	text-align: center;
+}
+
+.grid-view.grid-9 .table-view-cell {
+	padding: 6px;
+	border-right: 0;
+	border-bottom: 0;
+	text-align: center;
+}
+
+.table-view.grid-view .table-view-cell .media-body {
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.grid-view.grid-9 .media .icon {
+	border-radius: 6px;
+	-webkit-border-radius: 6px !important;
+	-moz-border-radius: 6px !important;
+}
+.nav-footer {
+	bottom: 0;	
+	width: 100%;
+	height: 50px;
+	padding: 0;
+	border-top: 0;
+	border-bottom: 0;
+	
+}
+
+.nav-footer .tab-item {	
+	overflow: hidden;
+	width: 33.33333333%;
+	height: 50px;
+	text-align: center;	
+	color: #929292;
+	float: left;
+	display: block;	
+}
+.nav-footer .tab-item:hover{
+	color: #007aff
+	}
+.nav-footer .tab-item.active {
+	color: #007aff;
+	
+}
+
+.nav-footer .tab-item .icon {
+	top: 3px;
+	width: 24px;
+	height: 24px;
+	padding-top: 0;	
+	
+}
+
+.nav-footer .tab-item .icon~.tab-label {
+	font-size: 12px;
+	display: block;
+	overflow: hidden;	
+	margin-top: 2px;
+	text-overflow: ellipsis
+}
+
+.bar-tab .tab-item .icon:active {
+	background: 0 0
+}
+
+
+.fs16 {
+	font-size: 16px;
+}
+
+.fs18 {
+	font-size: 18px;
+}
+
+.fs20 {
+	font-size: 20px;
+}
+
+.fs22 {
+	font-size: 22px;
+}
+
+.fs24 {
+	font-size: 24px;
+}
+
+.fs26 {
+	font-size: 26px;
+}
+
+.fs28 {
+	font-size: 28px;
+}
+
+.row-label {
+	padding: 8px 10px;
+	display: block;
+	font-size: 14px;
+}

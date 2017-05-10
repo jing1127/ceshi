@@ -1,0 +1,17 @@
+{
+	"index.html": {
+		"resources": [
+			"js/common.js",
+			"js/mui.min.js",
+			"css/app.css",
+			"css/iconfont.css",
+			"css/font-awesome.min.css",
+			"css/mui.min.css",
+			"js/utitls.js",
+			"css/feedback-page.css",
+			"js/jquery.js",
+			"images/iconfont-tianjia.png",
+			"fonts/fontawesome-webfont.ttf"
+		]
+	}
+}
